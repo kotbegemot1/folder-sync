@@ -10,7 +10,7 @@ from loguru import logger
 
 
 logger.remove()
-logger.add('{}.log'.format(sys.argv[4]), format="{time} {level} {message}", level="INFO")
+logger.add('{}'.format(sys.argv[4]), format="{time} {level} {message}", level="INFO")
 
 class NewSyncer(Syncer):
 	def _copy(self, filename, dir1, dir2):
