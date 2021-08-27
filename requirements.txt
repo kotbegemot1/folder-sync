@@ -1,0 +1,2 @@
+dirsync==2.2.5
+loguru==0.5.3
